@@ -1,0 +1,139 @@
+:root {
+    --uofured: #A12D37
+}
+body {
+    background-color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+    div.container {
+        width: 780px;
+        border: 1px dotted blue;
+        margin: 0 auto; /* tb rl */
+        background-color: white;
+
+        section.middle {
+            padding: 3px 10px;
+            background-image: url('files/uofu_medallion_rt.gif');
+            background-position: bottom right;
+            background-repeat: no-repeat;
+            > nav {
+                text-align: right;
+                font-size: 10px;
+                a {
+                    color: black;
+                    text-decoration: none;
+                    border-right: 1px solid black;
+                    padding-right: 3px;
+                    margin-left: 3px;
+
+
+                    &:hover { /* Pseudoclass */
+                    text-decoration: underline;
+                    }
+
+                    &:last-of-type { /*Pseudoclass */
+                        border-right: none;
+                        padding-right: unset;
+                    }
+
+                    img {
+                        vertical-align: middle;
+                    }
+
+                }
+
+                &.top-nav {
+                    text-transform: uppercase;
+
+                }
+
+                &.bottom-nav {
+                    text-transform: lowercase;
+
+                }
+        }
+
+        section.brown-box {
+            /* height: 400px;*/
+            background-color: #C8CAAF;
+            margin: 5px 0 50px;
+            padding: 10px 10px 10px 15px;
+
+            aside {
+                border: 1px solid black;
+
+                &.left {
+                    width: 30%;
+                    float: left;
+
+                    nav {
+                        a {
+                            display: block;
+                            text-transform: uppercase;
+                            font-size: 10px;
+                            color: black;
+                            text-decoration: none;
+                            border-bottom: 2px solid #505A2F;
+                            padding: 10px 0 10px 10px;
+                            &:hover {
+                                background-color: #505A2F;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+
+                &.right {
+                    width: 60%;
+                    float: right;
+                    background-color:#fff;
+                    padding: 10px;
+
+                    h1 {
+                        text-transform: uppercase;
+                        color: #505A2F;
+                        border-bottom: 2px dashed #A12D37;
+                        font-size: 16px;
+                        font-weight: normal;
+                    }
+
+                    p {
+                        font-size: 12px;
+
+                        strong {
+                            font-sixe: 110%;
+                        }
+
+                        &.link {
+                            text-align: right;
+                        }
+
+                        a {
+                            color: #A12D37;
+
+                        }
+
+                    }
+
+                }
+            }
+
+            div.links {
+                margin: 50px auto 0;
+                width: 153px;
+            }
+
+        }
+
+        }
+
+        footer {
+            background-color: #686F3E;
+            color: white;
+            font-size: 11px;
+            text-align: center;
+            padding: 10px 0;
+        }
+    }
+}
