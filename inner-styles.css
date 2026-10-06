@@ -1,0 +1,81 @@
+:root {
+    --green: #676E3D;
+}
+
+body {
+    background-color: #292827;
+    display: flex;
+    justify-content: center;
+
+
+    section.container {
+        background-color: #fff;
+        width: 780px;
+        min-height: 600px;
+
+        section.middle {
+            display: flex;
+
+            >* {
+
+            }
+
+            section {
+                &.left-side {
+                    width: 30%;
+                    background-color: #F2F1F1;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+                    border-right: 1px solid #B4B697;
+                    font-family: Arial, Helvetica, sans-serif;
+
+                    nav {
+                        margin-top: 20px;
+                    }
+                        a {
+                            display: block;
+                            text-transform: uppercase;
+                            font-size: 10px;
+                            color: black;
+                            text-decoration: none;
+                            border-bottom: 2px solid #505A2F;
+                            padding: 10px 0 10px 10px;
+                            &:hover {
+                                background-color: #505A2F;
+                                color: white;
+                            }
+                    }
+
+                    .links {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+                }
+
+                &.right-side {
+                    width: 70%;
+                    min-height: 600px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    padding: 5px 20px;
+
+                    nav {
+                        text-align: right;
+                    }
+                }
+            }
+        }
+
+        footer {
+            background-color: var(--green);
+            color: white;
+            font-size: 11px;
+            text-align: center;
+            padding: 10px 0;
+        }
+    }
+}
