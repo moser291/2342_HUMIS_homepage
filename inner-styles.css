@@ -6,6 +6,7 @@ body {
     background-color: #292827;
     display: flex;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
 
 
     section.container {
@@ -16,7 +17,7 @@ body {
         section.middle {
             display: flex;
 
-            >* {
+            > * {
 
             }
 
@@ -29,23 +30,24 @@ body {
                     justify-content: space-between;
                     align-items: center;
                     border-right: 1px solid #B4B697;
-                    font-family: Arial, Helvetica, sans-serif;
 
                     nav {
                         margin-top: 20px;
                     }
-                        a {
-                            display: block;
-                            text-transform: uppercase;
-                            font-size: 10px;
-                            color: black;
-                            text-decoration: none;
-                            border-bottom: 2px solid #505A2F;
-                            padding: 10px 0 10px 10px;
-                            &:hover {
-                                background-color: #505A2F;
-                                color: white;
-                            }
+
+                    a {
+                        display: block;
+                        text-transform: uppercase;
+                        font-size: 10px;
+                        color: black;
+                        text-decoration: none;
+                        border-bottom: 2px solid #505A2F;
+                        padding: 10px 0 10px 10px;
+
+                        &:hover {
+                            background-color: #505A2F;
+                            color: white;
+                        }
                     }
 
                     .links {
@@ -65,11 +67,54 @@ body {
 
                     nav {
                         text-align: right;
+                        font-size: 10px;
+                        font-family: Arial, Helvetica, sans-serif;
+
+                        a {
+                            color: black;
+                            text-decoration: none;
+                            border-right: 1px solid black;
+                            padding-right: 3px;
+                            margin-left: 3px;
+
+
+                            &:hover { /* Pseudoclass */
+                                text-decoration: underline;
+                            }
+
+                            &:last-of-type { /*Pseudoclass */
+                                border-right: none;
+                                padding-right: unset;
+                            }
+
+                            img {
+                                vertical-align: middle;
+                            }
+
+                        }
+
+                        &.top-nav {
+                            text-transform: uppercase;
+                        }
+
+                        &.bottom-nav {
+                            text-transform: lowercase;
+                        }
+                    }
+
+                    main {
+                        border: 1px dotted black;
+                        img {
+                            &.pull-right {
+                                float: right;
+                                width: 150px;
+                            }
+
+                        }
                     }
                 }
             }
         }
-
         footer {
             background-color: var(--green);
             color: white;
