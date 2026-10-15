@@ -1,5 +1,6 @@
 :root {
     --burgundy: #A12D37;
+    --dark: black;
 }
 
 body {
@@ -36,10 +37,12 @@ body {
 
     h6 {
         font-size: 1rem;
+        margin-bottom: 0;
     }
 
     p {
         text-align: justify;
+        font-size: 0.75rem;
     }
 
 }

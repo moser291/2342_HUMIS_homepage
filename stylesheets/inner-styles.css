@@ -14,12 +14,14 @@ body {
         width: 780px;
         min-height: 600px;
 
+        header {
+            img {
+                display: block;
+            }
+        }
+
         section.middle {
             display: flex;
-
-            > * {
-
-            }
 
             section {
                 &.left-side {
@@ -33,24 +35,24 @@ body {
 
                     nav {
                         margin-top: 20px;
-                    }
 
-                    a {
-                        display: block;
-                        text-transform: uppercase;
-                        font-size: 10px;
-                        color: black;
-                        text-decoration: none;
-                        border-bottom: 2px solid #505A2F;
-                        padding: 10px 0 10px 10px;
+                        a {
+                            display: block;
+                            text-transform: uppercase;
+                            font-size: 10px;
+                            color: black;
+                            text-decoration: none;
+                            border-bottom: 2px solid #505A2F;
+                            padding: 10px 0 10px 10px;
 
-                        &:hover {
-                            background-color: #505A2F;
-                            color: white;
-                        }
+                            &:hover {
+                                background-color: #505A2F;
+                                color: white;
+                            }
 
-                        &.active {
-                            font-weight: bold;
+                            &.active {
+                                font-weight: bold;
+                            }
                         }
                     }
 
@@ -70,7 +72,7 @@ body {
                     justify-content: space-between;
                     padding: 5px 20px;
 
-                    nav {
+                    nav.secondary {
                         text-align: right;
                         font-size: 10px;
                         font-family: Arial, Helvetica, sans-serif;
@@ -108,7 +110,7 @@ body {
                     }
 
                     main {
-
+                        min-height: 600px;
                         img {
                             &.pull-right {
                                 float: right;
@@ -120,6 +122,7 @@ body {
                 }
             }
         }
+
         footer {
             background-color: var(--green);
             color: white;
