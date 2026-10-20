@@ -1,0 +1,32 @@
+main {
+
+    aside.pull {
+        /*border: 5px solid orange;*/
+        display: inline-block;
+        max-width: 150px;
+
+        >img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        &.left {
+            float: left;
+            margin: 0 15px 5px 0;
+        }
+
+        &.right {
+            float: right;
+            margin: 0 0 5px 15px;
+        }
+
+       h6 {
+           text-align: center;
+       }
+
+        &:hover {
+            text-decoration: underline;
+        }
+
+    }
+}
