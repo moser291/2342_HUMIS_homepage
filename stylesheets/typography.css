@@ -43,6 +43,26 @@ body {
     p {
         text-align: justify;
         font-size: 0.75rem;
+
+        &.learn-more {
+            text-align: right;
+
+            a {
+                color: var(--burgundy);
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
+        }
+
+        .shrug {
+            font-size: 1rem;
+            color: var(--burgundy);
+            font-weight: bold;
+        }
     }
 
 }

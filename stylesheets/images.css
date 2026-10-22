@@ -5,7 +5,7 @@ main {
         display: inline-block;
         max-width: 150px;
 
-        >img {
+        > img {
             width: 100%;
             border-radius: 5px;
         }
@@ -20,13 +20,12 @@ main {
             margin: 0 0 5px 15px;
         }
 
-       h6 {
-           text-align: center;
-       }
+        h6 {
+            text-align: center;
+        }
 
         &:hover {
             text-decoration: underline;
         }
-
     }
 }
