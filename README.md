@@ -1,6 +1,6 @@
 # Welcome to my site!
 
-## HUMIS Project
+## HUMIS Project - Adasha Moser
 
 ### My teacher made me build this
 
