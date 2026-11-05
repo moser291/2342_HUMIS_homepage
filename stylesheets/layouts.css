@@ -72,6 +72,23 @@ section.horizontal-two-column-layout {
        }
        &.right-column {
            width: 70%;
+           border-left: 2px dotted black;
+           padding: 0 0 0 10px;
+
+           p {
+               &.red {
+                   color: var(--burgundy);
+               }
+           }
+
+           span {
+               display: block;
+
+           }
+           .name {
+               font-weight: bold;
+               font-size: 1rem;
+           }
        }
    }
 }

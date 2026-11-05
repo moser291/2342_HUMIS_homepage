@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HUMIS "inner" pages layout</title>
+    <link rel="stylesheet" href="stylesheets/inner-styles.css">
+    <link rel="stylesheet" href="stylesheets/typography.css">
+    <link rel="stylesheet" href="stylesheets/layouts.css">
+
+    <style>
+        /* Local styles */
+        main {
+            nav.inner-nav {
+                display: flex;
+                gap: 5px;
+                font-size: 11px;
+                color: var(--burgundy);
+                border-bottom: 2px solid var(--dark);
+                padding-bottom: 15px;
+                margin-bottom: 15px;
+
+                a {
+                    text-transform: uppercase;
+                    color: var(--burgundy);
+                    text-decoration: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+
+                }
+            }
+
+            section.content {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+
+                h3 {
+                    margin: 0;
+                }
+
+                div {
+                    h6 {
+                        color: var(--dark);
+                    }
+
+                    p {
+                        margin: 0;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    </style>
+
+</head>
+<body>
+<section class="container">
+
+    <header>
+        <a href="index.html">
+            <img src="files/historyHeader.gif" alt="History homepage"/>
+        </a>
+        <img src="files/histBooks01.jpg" alt="History books"/>
+    </header>
+
+    <section class="middle">
+
+        <section class="left-side">
+            <nav>
+                <a href="about_us.html">About us</a>
+                <a href="#">Faculty &amp; staff</a>
+                <a href="#">Undergraduate Students</a>
+                <a href="#">Graduate students</a>
+                <a href="#">Courses &amp; syllabi</a>
+                <a href="#">News &amp; announcements</a>
+                <a href="#">Friends &amp; alumni</a>
+                <a href="contact-us.html" class="active">Contact us</a>
+            </nav>
+
+            <div class="links">
+                <a href="#">
+                    <img src="files/login-humis.gif" alt="Log into HUMIS"/>
+                </a>
+
+                <a href="#">
+                    <img src="files/login-cis.gif" alt="Log into CIS"/>
+                </a>
+            </div>
+
+        </section>
+
+        <section class="right-side">
+
+            <nav class="secondary top-nav">
+                <a href="#">Campus directory</a>
+                <a href="#">Department calendar</a>
+                <a href="contact-us.html">Contact us</a>
+                <a href="#">
+                    <img src="files/u_small.gif" alt="U of U Logo"/>
+                </a>
+            </nav>
+
+            <main>
+
+                <section class="horizontal-two-column-layout">
+                    <aside class="left-column">
+                        <div class="top">
+                            <h4>FACULTY &amp; STAFF</h4>
+
+                            <div class="category top">
+                                <a href="#">New Faculty</a>
+
+
+
+                                <a href="#" class="active">Faculty Listing</a>
+                                <a href="#">Staff Listing</a>
+                            </div>
+                        </div>
+
+                        <div class="bottom">
+
+                            <p>
+                                <span class="name"> Eric Hinderaker</span>
+                                <span class="title">Department Chair</span>
+                                <span class="address">308 Carlson Hall</span>
+                                <a class="phone-number" href="tel:581-5685">581-5685</a>
+                                <a class="email-address" href="mailto:ehinderaker@history.utah.edu">ehinderaker@history.utah.edu</a>
+                            </p>
+
+                            <p>
+                                <span class="name">Amanda Biesinger</span>
+                                <span class="title">Undergraduate Advisor</span>
+                                <span class="address">211 Carlson Hall</span>
+                                <a class="phone-number" href="tel:581-6420">581-6420 </a>
+                                <a class="email-address" href="mailto:amanda.biesinger@utah.edu">amanda.biesinger@utah.edu</a>
+                            </p>
+
+                            <p>
+                                <span class="name"></span>Rebecca Horn</span>
+                                <span class="title">Associate Chair Undergraduate Director</span>
+                                <span class="address">211 Carlson Hall</span>
+                                <a class="phone-number" href="tel:581-5294">581-5294</a>
+                                <a class="email-address" href="mailto:rebecca.horn@history.utah.edu">rebecca.horn@history.utah.edu</a>
+                            </p>
+
+                            <p>
+                                <span class="name">Lindsay Adams</span>
+                                <span class="title"></span> Graduate Director</span>
+                                <span class="address">211 Carlson Hall</span>
+                                <a class="phone-number" href="tel:581-8592">581-8592</a>
+                                <a class="email-address"
+                                   href="mailto:winthrop.adams@utah.edu">winthrop.adams@utah.edu</a>
+                            </p>
+
+                        </div>
+
+                    </aside>
+
+                    <aside class="right-column">
+                        <h5>Faculty Listing</h5>
+
+                        <p class="red">
+                            FIND A FACULTY MEMBER <br>
+                            by last name <br>
+                            by area of study <br>
+                        </p>
+
+                        <span class="name"> Susan Miller </span>
+
+                        <p>
+                            (Ph.D. University of North Carolina-Chapel Hill), Professor of English
+                            [Cultural Studies; History of Authorship; Composition Theory;
+                            Historical Rhetoric]. Writing 3700.<br>
+                            Office: LNCO 3704<br>
+                            Phone: 581-7095<br>
+                            Email:susan.miller@m.cc.utah.edu</p>
+
+                        <span class="name"> Susan Miller </span>
+
+                        <p>
+                            (Ph.D. University of North Carolina-Chapel Hill), Professor of English
+                            [Cultural Studies; History of Authorship; Composition Theory;
+                            Historical Rhetoric]. Writing 3700.<br>
+                            Office: LNCO 3704<br>
+                            Phone: 581-7095<br>
+                            Email:susan.miller@m.cc.utah.edu</p>
+
+
+                        <span class="name"> Susan Miller </span>
+
+                        <p>
+                            (Ph.D. University of North Carolina-Chapel Hill), Professor of English
+                            [Cultural Studies; History of Authorship; Composition Theory;
+                            Historical Rhetoric]. Writing 3700.<br>
+                            Office: LNCO 3704<br>
+                            Phone: 581-7095<br>
+                            Email:susan.miller@m.cc.utah.edu</p>
+
+                        <span class="name"> Susan Miller </span>
+
+                        <p>
+                            (Ph.D. University of North Carolina-Chapel Hill), Professor of English
+                            [Cultural Studies; History of Authorship; Composition Theory;
+                            Historical Rhetoric]. Writing 3700.<br>
+                            Office: LNCO 3704<br>
+                            Phone: 581-7095<br>
+                            Email:susan.miller@m.cc.utah.edu</p>
+
+                        <span class="name"> Susan Miller </span>
+
+                    </aside>
+
+
+                </section>
+
+            </main>
+
+            <nav class="secondary bottom-nav">
+                <a href="#">Disclaimer</a>
+                <a href="#">Text only</a>
+                <a href="#">Webmaster</a>
+            </nav>
+        </section>
+    </section>
+
+    <footer>
+        380 SOUTH 1400 EAST | 211 C HALL | SALT LAKE CITY | UT | 84112 | PHONE 801.581.6121 | FAX 801.585.0580
+    </footer>
+
+</section>
+</body>
+</html>
