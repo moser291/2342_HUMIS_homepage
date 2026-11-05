@@ -58,6 +58,7 @@ body {
             background-color: #C8CAAF;
             margin: 5px 0 50px;
             padding: 10px 10px 10px 15px;
+            border-radius: 10px;
 
             aside {
 
@@ -88,13 +89,19 @@ body {
                     float: right;
                     background-color:#fff;
                     padding: 10px;
+                    margin: 0 0 50px 0;
 
                     h1 {
                         text-transform: uppercase;
                         color: #505A2F;
                         border-bottom: 2px dashed #A12D37;
-                        font-size: 16px;
+                        font-size: 14px;
                         font-weight: normal;
+                    }
+
+                    img{
+                        max-width: 100%;
+                        margin: 0 0 10px 0;
                     }
 
                     p {
@@ -125,8 +132,8 @@ body {
             }
 
             div.links {
-                margin: 50px auto 0;
-                width: 153px;
+                margin: 150px auto 0;
+                width: 210px;
             }
 
         }
@@ -136,7 +143,7 @@ body {
         footer {
             background-color: #686F3E;
             color: white;
-            font-size: 11px;
+            font-size: 8px;
             text-align: center;
             padding: 10px 0;
         }
