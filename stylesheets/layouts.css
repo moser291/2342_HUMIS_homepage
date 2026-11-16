@@ -75,9 +75,18 @@ section.horizontal-two-column-layout {
            border-left: 2px dotted black;
            padding: 0 0 0 10px;
 
+           img {
+               width: 100%;
+               border-radius: 5%;
+           }
+
            p {
                &.red {
                    color: var(--burgundy);
+
+                   &:hover {
+                       text-decoration: underline;
+                   }
                }
            }
 
