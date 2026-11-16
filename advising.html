@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HUMIS "inner" pages layout</title>
+    <link rel="stylesheet" href="stylesheets/inner-styles.css">
+    <link rel="stylesheet" href="stylesheets/typography.css">
+    <link rel="stylesheet" href="stylesheets/layouts.css">
+
+    <style>
+        /* Local styles */
+        main {
+            nav.inner-nav {
+                display: flex;
+                gap: 5px;
+                font-size: 11px;
+                color: var(--burgundy);
+                border-bottom: 2px solid var(--dark);
+                padding-bottom: 15px;
+                margin-bottom: 15px;
+
+                a {
+                    text-transform: uppercase;
+                    color: var(--burgundy);
+                    text-decoration: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+
+                }
+            }
+
+            section.content {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+
+                h3 {
+                    margin: 0;
+                }
+
+                div {
+                    h6 {
+                        color: var(--dark);
+                    }
+
+                    p {
+                        margin: 0;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    </style>
+
+</head>
+<body>
+<section class="container">
+
+    <header>
+        <a href="index.html">
+            <img src="files/historyHeader.gif" alt="History homepage"/>
+        </a>
+        <img src="files/histBooks01.jpg" alt="History books"/>
+    </header>
+
+    <section class="middle">
+
+        <section class="left-side">
+            <nav>
+                <a href="about_us.html">About us</a>
+                <a href="#">Faculty &amp; staff</a>
+                <a href="#">Undergraduate Students</a>
+                <a href="#">Graduate students</a>
+                <a href="#">Courses &amp; syllabi</a>
+                <a href="#">News &amp; announcements</a>
+                <a href="#">Friends &amp; alumni</a>
+                <a href="contact-us.html" class="active">Contact us</a>
+            </nav>
+
+            <div class="links">
+                <a href="#">
+                    <img src="files/login-humis.gif" alt="Log into HUMIS"/>
+                </a>
+
+                <a href="#">
+                    <img src="files/login-cis.gif" alt="Log into CIS"/>
+                </a>
+            </div>
+
+        </section>
+
+        <section class="right-side">
+
+            <nav class="secondary top-nav">
+                <a href="#">Campus directory</a>
+                <a href="#">Department calendar</a>
+                <a href="contact-us.html">Contact us</a>
+                <a href="#">
+                    <img src="files/u_small.gif" alt="U of U Logo"/>
+                </a>
+            </nav>
+
+            <main>
+                <section class="horizontal-two-column-layout">
+                    <aside class="left-column">
+                        <div class="top">
+
+                            <h5>UNDERGRADUATE STUDENTS</h5>
+
+                            <p><b>Advising</b></p>
+                            <p>Requirements</p>
+                            <p>Scholarships</p>
+                            <p>Graduation</p>
+                            <p>Handbook</p>
+                            <p>Student Organizations</p>
+                            <p>FAQ</p>
+                            <p>Forms</p>
+
+                        </div>
+
+                    </aside>
+
+                    <aside class="right-column">
+
+                       <h6>Advising</h6>
+
+                        <p>All advising questions pertaining to scheduling, academic
+                            progress, graduation, or transfer credits should be directed
+                            to the Academic Advisor, Amanda Biesinger. Students
+                            should see the Academic Advisor each semester prior to
+                            registration and during the semester in which they apply
+                            for graduation. Upon declaration, the Academic Advisor
+                            will give the student a list of faculty in the student’s main
+                            field of interest. Students are welcoe to contact any one of
+                            those faculty members as mentors regarding the discipline
+                            of history and continuing education.</p>
+
+                        <p>
+                            <b> Declaration of a Major or Minor </b>
+                        </p>
+
+                       <p>
+                           To enroll as a History Academic Major, Academic Minor,
+                           Teaching Major or Teaching Minor, a student must have an
+                           interview with the Department of History’s Undergraduate
+                           Academic Advisor. The Academic Advisor will evaluate the
+                           student’s transcript, outline the major/minor and designate
+                           those requirements that the student must fulfill.
+                           </p>
+
+                        <p>
+                           <b>Appointments</b>
+                       </p>
+
+                        <p>
+                            To set an appointment with the Academic Advisor, contact
+                            the Department at 581-6121. They will help you find a
+                            time that will work with your schedule.
+                        </p>
+
+                        <p>
+                            <b>Change of Address and/or Name</b>
+                        </p>
+
+                        <p>
+                            Students are required to notify the Academic Advisor of
+                            any change of address and/or name. If students fail to
+                            do so, they could miss important information that the
+                            department mails and e-mails to all majors and minors.
+                        </p>
+
+
+
+
+
+
+
+                    </aside>
+
+
+                </section>
+
+            </main>
+
+            <nav class="secondary bottom-nav">
+                <a href="#">Disclaimer</a>
+                <a href="#">Text only</a>
+                <a href="#">Webmaster</a>
+            </nav>
+        </section>
+    </section>
+
+    <footer>
+        380 SOUTH 1400 EAST | 211 C HALL | SALT LAKE CITY | UT | 84112 | PHONE 801.581.6121 | FAX 801.585.0580
+    </footer>
+
+</section>
+</body>
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HUMIS "inner" pages layout</title>
+    <link rel="stylesheet" href="stylesheets/inner-styles.css">
+    <link rel="stylesheet" href="stylesheets/typography.css">
+    <link rel="stylesheet" href="stylesheets/layouts.css">
+
+    <style>
+        /* Local styles */
+        main {
+            nav.inner-nav {
+                display: flex;
+                gap: 5px;
+                font-size: 11px;
+                color: var(--burgundy);
+                border-bottom: 2px solid var(--dark);
+                padding-bottom: 15px;
+                margin-bottom: 15px;
+
+                a {
+                    text-transform: uppercase;
+                    color: var(--burgundy);
+                    text-decoration: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+
+                }
+            }
+
+            section.content {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+
+                h3 {
+                    margin: 0;
+                }
+
+                div {
+                    h6 {
+                        color: var(--dark);
+                    }
+
+                    p {
+                        margin: 0;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    </style>
+
+</head>
+<body>
+<section class="container">
+
+    <header>
+        <a href="index.html">
+            <img src="files/historyHeader.gif" alt="History homepage"/>
+        </a>
+        <img src="files/histBooks01.jpg" alt="History books"/>
+    </header>
+
+    <section class="middle">
+
+        <section class="left-side">
+            <nav>
+                <a href="about_us.html">About us</a>
+                <a href="#">Faculty &amp; staff</a>
+                <a href="#">Undergraduate Students</a>
+                <a href="#">Graduate students</a>
+                <a href="#">Courses &amp; syllabi</a>
+                <a href="#">News &amp; announcements</a>
+                <a href="#">Friends &amp; alumni</a>
+                <a href="contact-us.html" class="active">Contact us</a>
+            </nav>
+
+            <div class="links">
+                <a href="#">
+                    <img src="files/login-humis.gif" alt="Log into HUMIS"/>
+                </a>
+
+                <a href="#">
+                    <img src="files/login-cis.gif" alt="Log into CIS"/>
+                </a>
+            </div>
+
+        </section>
+
+        <section class="right-side">
+
+            <nav class="secondary top-nav">
+                <a href="#">Campus directory</a>
+                <a href="#">Department calendar</a>
+                <a href="contact-us.html">Contact us</a>
+                <a href="#">
+                    <img src="files/u_small.gif" alt="U of U Logo"/>
+                </a>
+            </nav>
+
+            <main>
+                <section class="horizontal-two-column-layout">
+                    <aside class="left-column">
+                        <div class="top">
+
+                            <h5>NEWS &amp; ANNOUNCEMENTS</h5>
+
+                            <p><b>Calendar</b></p>
+                            <p>Newsletter</p>
+                            <p>New Faculty</p>
+
+                        </div>
+
+                    </aside>
+
+                    <aside class="right-column">
+
+                       <h6>>>VIEW THE DEPARTMENT CALENDAR</h6>
+
+                        <p><b>MAY 28, 2005</b> <br>
+
+                        <b>UMFA</b> <br>
+
+                       <b>10 AM - 2 PM</b> </p>
+
+                        <aside class="pull-right">
+                            <img src="files/small-pottery.png" alt="small pottery"/>
+                        </aside>
+
+                        <p>
+                            <b> "The Coolest Lecture in History" </b> <br>
+                            <i>Professor Rhona Ramsey</i>
+                        </p>
+
+
+                        <p>
+                           Epeconsu lusquidium octusquit. Lossili caverma, unum
+                           fur quos culibut L. Ber pra sed sentemum screm pere
+                           mo eo, quo ublistius, quod crum ad re consimus aricie
+                           terum tus, Catum imo mei in ducontilla cri publinticae
+                           facienam terei propora ctorion damdiis vis andentil
+                           confesigilis ma, quam avocrei iam din aur iam aturem
+                           nem aus hacci pro ubli inihicaedet vit; non temerrato
+                           et vis es los, consus perterf intilica; horum nemus et
+                           con hae in dum, senductus cris audem mori patatiq
+                           uondi, ditemorit. Se atusquis, ium demerox imilium
+                           depopub licatiam tus horum li, cone pate quo aut con
+                           sulestario perfecu rnumus. Quoditri in vidi ficient L.
+                           Graedeatui se omperit.
+                           </p>
+
+                        <p class="learn-more">
+                            <a href="#">
+                                >> <b>download the poster</b>
+                            </a>
+                        </p>
+
+                    </aside>
+
+
+                </section>
+
+            </main>
+
+            <nav class="secondary bottom-nav">
+                <a href="#">Disclaimer</a>
+                <a href="#">Text only</a>
+                <a href="#">Webmaster</a>
+            </nav>
+        </section>
+    </section>
+
+    <footer>
+        380 SOUTH 1400 EAST | 211 C HALL | SALT LAKE CITY | UT | 84112 | PHONE 801.581.6121 | FAX 801.585.0580
+    </footer>
+
+</section>
+</body>
+</html>
