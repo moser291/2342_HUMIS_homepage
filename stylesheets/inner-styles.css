@@ -117,25 +117,17 @@ body {
 
                     main {
                         min-height: 600px;
-                        img {
-                            &.pull-right {
-                                float: right;
-                                width: 150px;
-                            }
-
-
-                        }
                     }
                 }
             }
         }
+    }
 
-        footer {
-            background-color: var(--green);
-            color: white;
-            font-size: 11px;
-            text-align: center;
-            padding: 10px 0;
-        }
+    footer {
+        background-color: var(--green);
+        color: white;
+        font-size: 11px;
+        text-align: center;
+        padding: 10px 0;
     }
 }

@@ -2,12 +2,13 @@ main {
 
     aside.pull {
         /*border: 5px solid orange;*/
-        display: inline-block;
+        display: block;
         max-width: 150px;
 
         > img {
             width: 100%;
             border-radius: 5px;
+            display: block;
         }
 
         &.left {
@@ -18,6 +19,30 @@ main {
         &.right {
             float: right;
             margin: 0 0 5px 15px;
+        }
+
+        &.small {
+            width: 100px;
+        }
+
+        &.tiny {
+            width: 50px;
+        }
+
+        &.thick-border {
+            img {
+                border: 2px solid black;
+            }
+        }
+
+        &.border-red {
+            img {
+                border-color: red;
+            }
+        }
+
+        &.pull-up {
+            margin-top: -15px;
         }
 
         h6 {
