@@ -29,6 +29,10 @@ main {
             width: 50px;
         }
 
+        &.tinier {
+            width: 30px;
+        }
+
         &.thick-border {
             img {
                 border: 2px solid black;
